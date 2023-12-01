@@ -88,7 +88,7 @@
 
 
 /* Ipade Air */
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 991px) {
   .row .cta_btn-section {
     width: 100%;
     display: flex;
@@ -204,6 +204,17 @@
   }
   #brand_img-section_colum35 .container .row .section_colum36 .img_container{
     width: 202px;
+  }
+/* .navrbar_containetr{
+  position: relative;
+    right: -35rem;
+    top: 1rem;
+} */
+  .mobile-nav-toggle i{
+    display: block;
+  }
+  .navbar_ul{
+   display: none;
   }
 
 }

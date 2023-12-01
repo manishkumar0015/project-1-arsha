@@ -763,3 +763,26 @@ color: #47b2e4;
 
 .grid-item { width: 25%; background-color: red;}
 .grid-item--width2 { width: 50%; }
+
+
+
+
+#portfolio-flters li{
+    list-style: none;
+    padding: 8px 24px;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+#portfolio-flters li:hover{
+    color: white;
+    background-color: #47b2e4;
+    border-radius: 50px;
+}
+.mobile-nav-toggle i{
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    line-height: 0;
+    transition: 0.5s;
+}
