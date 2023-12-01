@@ -29,6 +29,7 @@
 
 .navbar_ul{
     display: flex;
+    width: 100%;
 }
 .navbar_ul li a{
    cursor: pointer;
@@ -778,7 +779,9 @@ color: #47b2e4;
     background-color: #47b2e4;
     border-radius: 50px;
 }
-.mobile-nav-toggle i{
+
+/* mobile to ipad air reponsive */
+.mobile-nav-toggle {
     color: #fff;
     font-size: 30px;
     cursor: pointer;
@@ -786,3 +789,10 @@ color: #47b2e4;
     line-height: 0;
     transition: 0.5s;
 }
+.navrbar_containetr{
+    display: flex;
+}
+
+
+
+/* Navbar V.2 */

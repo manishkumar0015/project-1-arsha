@@ -61,8 +61,7 @@
   }
   .container .navrbar_containetr .navbar_ul {
     font-size: 0.87rem;
-
-    padding-left: 48px;
+    padding-left: 39px;
   }
   .home_container {
     padding-left: 8px;
@@ -81,11 +80,6 @@
     width: 5rem;
   }
 }
-
-
-
-
-
 
 /* Ipade Air */
 @media only screen and (max-width: 991px) {
@@ -177,44 +171,87 @@
   ._container-colum23 {
     flex-direction: column-reverse;
     padding-top: 100px;
-    padding-left: 88px;
+    padding-left: 20px;
+    /* padding-right: 20px; */
     width: 50rem;
-    padding-right: 0px;
+    padding-right: 20px;
     text-align: center;
     align-items: center;
   }
-  .footer_up_containet form{
+  .colum24_container {
+    align-items: center;
+  }
+  .colum24_container h1 {
+    font-size: 3rem;
+    width: 100%;
+    margin-top: 17px;
+  }
+  .colum25_btn .text-light {
+    padding: 14px 26px;
+  }
+  .footer_up_containet form {
     width: 27rem;
   }
-  .footer_up_containet form .input_colum{
-  width: 20rem;
+  .footer_up_containet form .input_colum {
+    width: 20rem;
   }
-  .footer_up_containet form .input_colum36{
+  .footer_up_containet form .input_colum36 {
     left: -8rem;
     top: 19px;
   }
-  #brand_img-section_colum35 .container .row .section_colum36{
+  #brand_img-section_colum35 .container .row .section_colum36 {
     display: contents;
   }
-  #brand_img-section_colum35{
+  #brand_img-section_colum35 {
     height: 12rem;
   }
   #brand_img-section_colum35 .container .row {
-    width: 38rem;
+    width: 47.5rem;
   }
-  #brand_img-section_colum35 .container .row .section_colum36 .img_container{
-    width: 202px;
+  #brand_img-section_colum35 .container .row .section_colum36 .img_container {
+    width: 253px;
   }
-/* .navrbar_containetr{
-  position: relative;
-    right: -35rem;
-    top: 1rem;
-} */
-  .mobile-nav-toggle i{
-    display: block;
+  #home_section {
+    height: 68rem;
   }
-  .navbar_ul{
-   display: none;
+  .img_section_columa35 {
+    width: 100%;
+  }
+  .img_section_columa35 img {
+    width: 21rem !important;
+    height: 21rem;
+    margin-top: 9rem;
   }
 
+  /* Mobile responsive */
+  .mobile-nav-toggle i {
+    display: block;
+  }
+  .navbar_ul {
+    flex-direction: column;
+    display: none;
+  }
+  .navbar_mobile {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(40, 58, 90, 0.9);
+    transition: 0.3s;
+    z-index: 999;
+  }
+  .navbar-mobile ul {
+    display: block;
+    position: absolute;
+    top: 55px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 0;
+    border-radius: 10px;
+    background-color: #ffff;
+    overflow-y: auto;
+  }
 }
