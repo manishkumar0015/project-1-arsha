@@ -63,10 +63,10 @@
     
 
 }
-.btn_section{
+/* .btn_section{
     background-color: #37517e;
 
-}
+} */
 .btn_section a{
     color: white;
     line-height: 4rem;
@@ -788,6 +788,12 @@ color: #47b2e4;
     display: none;
     line-height: 0;
     transition: 0.5s;
+}
+.navrbar_containetr i{
+    display: none;
+}
+.mobile-nav-toggle:checked ~ ul{
+   left: 0;
 }
 .navrbar_containetr{
     display: flex;

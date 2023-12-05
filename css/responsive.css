@@ -88,6 +88,13 @@
     display: flex;
     /* justify-content: flex-end;  */
   }
+  ul.nav-active{
+    display: block!important;
+    background-color: white;
+  }
+  .navrbar_containetr .navbar_ul{
+    display: none;
+  }
   .row .cta_container_section {
     text-align: center;
     width: 100%;
@@ -157,9 +164,7 @@
   .brand_container .row .section_colum36 {
     display: contents;
   }
-  #Pricing .row {
-    width: 58rem;
-  }
+  
   .box_container_section {
     width: 28rem !important;
     width: 28rem !important;
@@ -222,11 +227,34 @@
     height: 21rem;
     margin-top: 9rem;
   }
-
-  /* Mobile responsive */
-  .mobile-nav-toggle i {
+  .dropdown{
+    width: 50%;
+  }
+  .navbar_ul li{
+    width: 90%;
+    background-color: white;
+  }
+  .navbar_ul li a{
+    color: #37517e;
+  }
+  .navbar_ul{
+    margin-top: 33px;
+    margin-right: -19px;
+    height: 51rem;
+    width: 95%;
+  }
+  .btn_section{
+    width: 109%;
+  }
+  .btn_section a{
+    padding-right: 35rem;
+  }
+  .navrbar_containetr i{
     display: block;
   }
+
+  /* Mobile responsive */
+  
   .navbar_ul {
     flex-direction: column;
     display: none;
@@ -246,12 +274,195 @@
     display: block;
     position: absolute;
     top: 55px;
-    right: 20px;
+    right: 0px;
     bottom: 20px;
     left: 20px;
-    padding: 10px 0;
+
     border-radius: 10px;
-    background-color: #ffff;
-    overflow-y: auto;
+  
+     
   }
+
+}
+@media only screen and (max-width: 768px){
+html,body{
+    overflow-x: hidden;
+}
+ 
+#home_section{
+  height: 53rem;
+}
+
+.img_section_columa35 img{
+  
+  margin-top: 9rem;
+}
+.colum24_container h1{
+  font-size: 28px;
+  line-height: 1.3;
+  font-weight: bold;
+}
+.colum24_container h2{
+  font-size: 1rem;
+  line-height: 1.3;
+  font-weight: bold;
+  width: 100%;
+}
+._container-colum23{
+  padding-left: 86px;
+  padding-right: 25px;
+}
+.colum25_btn{
+  font-size: 20px;
+
+}
+.colum25_btn .text-light{
+  padding: 20px 29px;
+  border-radius: 50px;
+}
+#brand_img-section_colum35 .row{
+  width: 24.5rem!important;
+
+}
+#brand_img-section_colum35{
+  height: 15rem;
+
+}
+.section_colum36 .img_container{
+  width: 195px !important;
+}
+.section_colum36 img{
+  width: 4rem;
+}
+.col-6 P{
+  width: 100%;
+  font-size: 15px;
+}
+.col-6 ul{
+  width: 98% !important;
+}
+.pera_colum_ p{
+  width: 103%;
+  font-size: 15px;
+}
+#services .container .row .box_container{
+  width: 100%;
+
+}
+.section-title p{
+  width: 100%;
+  font-size: 15px;
+}
+.protfolio_heading_section p{
+  width: 100%;
+  font-size: 15px;
+}
+.team-heading_section p{
+  width: 100%;
+  font-size: 15px;
+}
+.pricing_heading_section p{
+  width: 100%;
+  font-size: 15px;
+}
+.team_info p{
+  width: 66% !important;
+}
+.row .team_img_section{
+  height: 15rem;
+  /* padding-bottom: 20px !important; */
+  margin-bottom: 20px; 
+}
+#Pricing .row{
+  width: 100%;
+}
+.box_container_section{
+  margin-left: 12px !important;
+  margin-right: 0px !important;
+  width: 23rem !important;
+
+}
+.box_section_colam34{
+  padding: 20px;
+}
+.faq_heading_section p{
+  width: 100%;
+  font-size: 15px;
+}
+.contact_heading_section p{
+  width: 100%;
+  font-size: 15px;
+}
+.form_details{
+  width: 18rem !important;
+}
+.form_details .input_colum{
+  width: 14rem !important;
+}
+.input_colum36{
+  left: 1.5rem !important;
+    position: relative;
+    top: -2.5rem !important;
+    right: 17rem;
+    padding: 1px 13px;
+}
+.contact_info_section{
+  width: 96% !important;
+  margin-left: 7px;
+  margin-right: 0px;
+}
+.contact_form_section{
+  width: 96% !important;
+  margin-left: 7px;
+}
+.footer_up_containet h4{
+  width: 134%;
+  font-size: 21px;
+}
+.footer_secound .row{
+  width: 100%;
+
+}
+.footer_secound_section{
+  width: 52% !important;
+}
+.footer_bottom{
+  padding: 41px;
+}
+.fs-8{
+  width: 100%;
+  margin-bottom: 0px;
+}
+.dropdown{
+  width: 50%;
+}
+.navbar_ul li{
+  width: 90%;
+  background-color: white;
+}
+.navbar_ul li a{
+  color: #37517e;
+}
+.navbar_ul{
+  margin-top: 33px;
+  margin-right: 0px;
+  height: 51rem;
+  width: 93%;
+}
+.btn_section{
+  width: 109%;
+}
+.btn_section a{
+  padding-right: 14rem;
+  color: #37517e;
+
+}
+.navrbar_containetr i{
+  display: block;
+}
+._container-colum23{
+  padding: 0px;
+  /* height: 43rem; */
+  width: 100%;
+}
 }
