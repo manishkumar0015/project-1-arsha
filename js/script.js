@@ -3,3 +3,7 @@ $(document).ready(function(){
     $('ul').toggleClass('nav-active');
   })
 })
+
+
+
+AOS.init();
